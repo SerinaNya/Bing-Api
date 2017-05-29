@@ -48,7 +48,7 @@
 
 你可以在任何需要的地方引用 ``bingpic.php``，会直接显示当天的 Bing 今日美图。
 
-e.g. ``<img src="http://your-domain.com/bing.php" />``
+e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 
 ![Example](https://www.littleqiu.net/bingpic.php)
 
@@ -56,7 +56,7 @@ e.g. ``<img src="http://your-domain.com/bing.php" />``
 
 ![Example](https://resource.littleqiu.net/wp-content/uploads/2017/05/QQ截图20170529160247.png)
 
-总之，能这样引用图片的地方就能用！
+总之，能使用链接引用图片的地方就能用！
 ## **版权**
 
 辣鸡 Bing 今日美图 API 是基于 GUN General Public License v3.0 开放源代码的自由软件，你可以遵照 GPLv3 协议来修改和重新发布这一程序。
