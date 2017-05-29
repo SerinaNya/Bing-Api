@@ -4,9 +4,9 @@
 
 ## 什么是辣鸡 Bing 今日美图 API？
 
-辣鸡 Bing 今日美图 API 是由 [@Little_Qiu](https://www.littleqiu.net) 从 [@GPlane](http://www.gplane.win/) 为 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server) 编写的[多种首页样式](http://plugin.gplane.win/home/market/plugin/1) 插件中抠出来的相关代码加以修改后制成的一个轻量级的获取 Bing 今日美图的 API 程序。感谢 @GPlane 在开发过程中对我的帮助。
+辣鸡 Bing 今日美图 API 是由 [@Little_Qiu](https://www.littleqiu.net) 用从 [@GPlane](http://www.gplane.win/) 为 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server) 编写的[多种首页样式](http://plugin.gplane.win/home/market/plugin/1) 插件中抠出来的相关代码加以修改后制成的一个轻量级的获取 Bing 今日美图的 API 程序。感谢 @GPlane 在开发过程中对我的帮助。
 
-当然，因为在写这个程序之前我基本没有碰过 PHP，所以 Bug 在所难免。如果你在使用中遇到了什么问题，可以提交 Issue（不过八成不会被我解答及解决...）。如果有大佬发现了哪里有虫，也烦请在抓出来后提交个 Pull Request。
+因为在写这个程序之前我几乎没有接触过 PHP，所以 Bug 在所难免。如果你在使用中遇到了什么问题，可以提交 Issue（不过八成不会被我解答及解决...）。如果有大佬发现了哪里有虫，也烦请在抓出来后提交个 Pull Request。
 
 ### 这是干什么的？
 
