@@ -54,7 +54,7 @@ e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 
 你也可以这样用：
 
-![Example](https://resource.littleqiu.net/wp-content/uploads/2017/05/QQ截图20170529160247.png)
+![Example](https://www.littleqiu.net/wp-content/uploads/2017/05/QQ截图20170531201131.png)
 
 总之，能使用链接引用图片的地方就能用！
 ## **版权**
