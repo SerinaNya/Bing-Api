@@ -58,6 +58,8 @@ e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 
  你甚至可以这么玩：
 
+（想知道怎么玩的？[戳这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/%E5%B0%86-Bing-%E4%BB%8A%E6%97%A5%E7%BE%8E%E5%9B%BE%E8%AE%BE%E4%B8%BA%E7%94%B5%E8%84%91%E6%A1%8C%E9%9D%A2%E5%A3%81%E7%BA%B8)）
+
 ![Wallpaper](https://www.littleqiu.net/wp-content/uploads/2017/06/图像-2.png)
 
 ![Wallpaper Engine](https://www.littleqiu.net/wp-content/uploads/2017/06/图像-3.png)
