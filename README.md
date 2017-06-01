@@ -4,15 +4,15 @@
 
 ## 什么是辣鸡 Bing 今日美图 API？
 
-辣鸡 Bing 今日美图 API 是由 [@Little_Qiu](https://www.littleqiu.net) 用从 [@GPlane](http://www.gplane.win/) 为 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server) 编写的[多种首页样式](http://plugin.gplane.win/home/market/plugin/1) 插件中抠出来的相关代码加以修改后制成的一个轻量级的获取 Bing 今日美图的 API 程序。感谢 @GPlane 在开发过程中对我的帮助。
+> 辣鸡 Bing 今日美图 API 是由 [@Little_Qiu](https://www.littleqiu.net) 用从 [@GPlane](http://www.gplane.win/) 为 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server) 编写的[多种首页样式](http://plugin.gplane.win/home/market/plugin/1) 插件中抠出来的相关代码加以修改后制成的一个轻量级的获取 Bing 今日美图的 API 程序。感谢 @GPlane 在开发过程中对我的帮助。
 
 因为在写这个程序之前我几乎没有接触过 PHP，所以 Bug 在所难免。如果你在使用中遇到了什么问题，可以提交 Issue（不过八成不会被我解答及解决...）。如果有大佬发现了哪里有虫，也烦请在抓出来后提交个 Pull Request。
 
 ### 这是干什么的？
 
-精美的图片总是不够多，所以 Bing 今日美图就出现了。
+> 精美的图片总是不够多，而 Bing 今日美图则是寻找精美的图片的神器。
 
-但是 Bing 今日美图并没有提供 API 给那些有需要的人，且在 Bing 首页下载的图片还有 Bing 的水印。虽然已有许多可以自动获取每日的 Bing 今日美图的公众 API 及对应的程序，然而这些公众 API 和程序或多或少有些不足，比如公众 API 的速度和稳定性无法保证、程序会在服务器存储太多图片导致存储空间爆炸等。这让许多小伙伴非常头疼。
+Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张非常精美的图片，Bing 搜索首页的每日更新的背景图片就是 Bing 今日美图。但是 Bing 今日美图并没有提供 API 给那些有需要的人，且在 Bing 首页下载的图片还有 Bing 的水印。虽然已有许多可以自动获取每日的 Bing 今日美图的公众 API 及对应的程序，然而这些公众 API 和程序或多或少有些不足，比如公众 API 的速度和稳定性无法保证、程序会在服务器存储太多图片导致存储空间爆炸等，且许多程序的下载地址已经失效。这让许多小伙伴非常头疼。
 
 而我就是这些小伙伴中的一个。为了解决这些问题，我开发了「辣鸡 Bing 今日美图 API」。你可以使用它获取每天的无水印的 Bing 今日美图，分辨率为 1920*1080。它并不会将每日的图片存储到本地再返回给用户，而是获取每天的 Bing 今日美图的实际地址然后返回一个 HTTP 302 响应给用户，由用户的浏览器跳转到 Bing 今日美图的实际地址加载图片。
 
@@ -24,7 +24,8 @@
 - 只是返回给用户一个 302 到 Bing 的今日美图图片的真实地址：
   - 不在服务器端存储每天的图片，不用担心存储空间爆炸。
   - 耗费流量极少，不用担心一夜之间房子归~~移动~~ IDC。
-  - 速度非常快，不用担心图片拖慢网页加载速度。
+  - 速度非常快，不用担心图片拖慢网页加载速度。 
+- 用途方面简直就是万金油，你甚至可以配合 Wallpaper Engine 自动获取每日的 Bing 今日美图并设置为你的电脑桌面壁纸。
 - 可能还有更多...
 
 ## 我要怎么部署和使用这个 API？
@@ -58,7 +59,7 @@ e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 
  你甚至可以这么玩：
 
-（想知道怎么玩的？[戳这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/%E5%B0%86-Bing-%E4%BB%8A%E6%97%A5%E7%BE%8E%E5%9B%BE%E8%AE%BE%E4%B8%BA%E7%94%B5%E8%84%91%E6%A1%8C%E9%9D%A2%E5%A3%81%E7%BA%B8)）
+> （想知道怎么玩的？[戳这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/%E5%B0%86-Bing-%E4%BB%8A%E6%97%A5%E7%BE%8E%E5%9B%BE%E8%AE%BE%E4%B8%BA%E7%94%B5%E8%84%91%E6%A1%8C%E9%9D%A2%E5%A3%81%E7%BA%B8)）
 
 ![Wallpaper](https://www.littleqiu.net/wp-content/uploads/2017/06/图像-2.png)
 
