@@ -55,7 +55,7 @@ e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 
 你也可以这样用：
 
-![Example](https://www.littleqiu.net/wp-content/uploads/2017/05/QQ截图20170531201131.png)
+![Example](https://www.littleqiu.net/wp-content/uploads/2017/06/QQ截图20170531201131.png)
 
  你甚至可以这么玩：
 
