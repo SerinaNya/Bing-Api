@@ -7,4 +7,4 @@
 ## 如何使用呢？
 使用 PHP 打开它。
 
-程序原作者为 [@Little_Qiu](https://www.littleqiu.net/）。同样地，使用 GPL3.0 开源方法
+程序原作者为 [@Little_Qiu](https://www.littleqiu.net/）。 同样地，使用 GPL3.0 开源方法
