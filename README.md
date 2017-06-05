@@ -42,8 +42,9 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 1. 检查你的主机是否符合运行辣鸡 Bing 今日美图 API 的环境要求
 2. [在这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases)下载辣鸡 Bing 今日美图 API，并放置到你的 Web 引擎的站点目录下
-3. 安装完成后，访问 ``http://your-domain.com/bingpic.php`` 检查是否有报错
-4. 还有别的步骤么——没有了！
+3. 修改 ```settings.php``` 中的设置
+4. 安装完成后，访问 ``http://your-domain.com/bingpic.php`` 检查是否有报错
+5. 还有别的步骤么——没有了！
 
 ### 如何使用？
 
