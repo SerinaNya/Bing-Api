@@ -5,10 +5,11 @@
 	源码 Little_Qiu,感谢 GPlane,精简 Flyfish. Source By Little_Qiu,Thanks @GPlane,Changed By Flyfish.
 */
 
-//非专业用户，请不要更改以下文本 if U aren't a PHP developer,please don't change the following text.
+
 function 0() {
     $ago = '0'; // 设定图片的时间(几天前，整数，0为今天，1为昨天，2为前天) set picture date(e.g. today fill in 0,yesterday fill in 1,the day before yesterday fill in 2) 
-    $data = json_decode(file_get_contents('http://bing.com/HPImageArchive.aspx?format=js&idx=$ago&n=1'), true); // 从 Bing 获取日图 JSON get picture JSON from Bing
+    //非专业用户，请不要更改以下文本 if U aren't a PHP developer,please don't change the following text.
+	$data = json_decode(file_get_contents('http://bing.com/HPImageArchive.aspx?format=js&idx=$ago&n=1'), true); // 从 Bing 获取日图 JSON get picture JSON from Bing
     return "https://cn.bing.com".$data['images'][0]['url']; // 返回 URL get picture URL
 };
 $url = 0(); 
