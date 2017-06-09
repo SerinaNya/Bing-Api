@@ -11,7 +11,7 @@
 <li>配合 Wallpaper Engine 使用绝佳。
 <li>使用 302 状态码做跳转，使用 HTTPS
 <li>下载一次，到处运行，永远享受，相比较繁琐的其它 API 更快运行
-Fork 来自 [@Little_Qiu](https://www.littleqiu.net).同样地，使用 GPL3.0 开源方法。
+Fork 来自 [@Little_Qiu](https://www.littleqiu.net). 同样地，使用 GPL3.0 开源方法。
 
 # Lite Laji Bing Daily Picture API
 ## What is this ?
