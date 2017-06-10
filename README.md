@@ -6,7 +6,7 @@
 <li>精，小，简，便。
 <li>配合 Wallpaper Engine 使用绝佳。
 <li>使用 302 状态码做跳转，使用 HTTPS
-<li>下载一次，到处运行，永远享受，<b>相比较繁琐的同类 API 更快运行！获取图片的速度取决于你。</b>
+<li>下载一次，到处运行，永远享受，<b>当然，比繁琐的同类型 API 更快运行！获取图片的速度取决于用户网络的速率。</b>
 
 Fork 来自 [@Little_Qiu](https://www.littleqiu.net). 同样地，使用 GPL3.0 开源方法。
 # Lite Laji Bing Daily Picture API
