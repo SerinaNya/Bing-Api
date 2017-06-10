@@ -20,7 +20,7 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 当然有。
 
-- 只有 2 个 PHP 文件，包括注释和空行总计只有 40 行代码，轻巧的不像实力派。
+- 只有 2 个 PHP 文件，包括注释和空行总计只有 55 行代码，轻巧的不像实力派。
 - 只是返回给用户一个 302 到 Bing 的今日美图图片的真实地址：
   - 不在服务器端存储每天的图片，不用担心存储空间爆炸。
   - 耗费流量极少，不用担心一夜之间房子归~~移动~~ IDC。
@@ -48,11 +48,17 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 ### 如何使用？
 
-你可以在任何可以使用 URL 添加图片的地方引用 ``http://your-domain.com/bingpic.php``，会直接显示当天的 Bing 今日美图。
+你可以在任何可以使用 URL 添加图片的地方引用 ``http://your-domain.com/bingpic.php``，会直接显示当天的或您在 ``settings.php`` 中设置的天数之前的 Bing 今日美图。
 
-e.g. ``<img src="http://your-domain.com/bingpic.php" />``
+若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` ，即可获取 x 天前的 Bing 今日美图。
 
-![Example](https://www.littleqiu.net/bingpic.php)
+e.g.  ``<img src="http://your-domain.com/bingpic.php" />``
+
+![Eexample](https://www.littleqiu.net/bingpic.php)
+
+e.g. ``<img src="http://your-domain.com/bingpic.php?daysago=1">``
+
+![昨天的 Bing 今日美图](https://www.littleqiu.net/bingpic.php?daysago=1)
 
 你也可以这样用：
 
@@ -67,6 +73,14 @@ e.g. ``<img src="http://your-domain.com/bingpic.php" />``
 ![Wallpaper Engine](https://www.littleqiu.net/wp-content/uploads/2017/06/图像-3.png)
 
 ![还有这种操作？！](https://www.littleqiu.net/wp-content/uploads/2017/06/Cache_-604f82923c68bb83..jpg)![就是有这种操作！](https://www.littleqiu.net/wp-content/uploads/2017/06/Cache_6420743cd7bcf867..jpg)
+
+## 关于测试版
+
+测试版（``bingpic-test.php``）是开发中的版本，更新速度比稳定版（``bingpic.php``）要快些，但可能会包含一些致命的 Bug 导致无法正常运行。所以请在将正式版部署在生产环境前三思。
+
+测试版的部署方法和用法同稳定版。测试版不会在 [Releases](https://gtihub.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中打包发布，你需要从 Git 上 Clone 下来即可使用。
+
+若无特别说明，测试版的 ``settings.php`` 与稳定版的通用。
 
 ## **版权**
 
