@@ -1,7 +1,7 @@
 <?php
 /*
 	小垃圾必应日图 API 精简版(LLBDPA) Lite Laji(means rubbish) Bing Daily Picture API(LLBDPA)
-	版本 1.1 (第三方) Version: 1.1 (Third Party)
+	版本 1.1 (第三方) Version: 1.2 (Third Party)
 	源码 Little_Qiu,感谢 GPlane,精简 Flyfish. Source By Little_Qiu,Thanks @GPlane,Changed By Flyfish.
 */
 function bg() {
