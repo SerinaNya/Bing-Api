@@ -2,7 +2,7 @@
 获得 Bing 今日美图的图片地址并跳转。版权参见 Bing.
 本 API 指向一个图片链接。运行要求是：PHP 5.2.0 及以上，且支持 JSON.<b>现已支持访问过去的图片！</b>
 ## 这个 API 和其他的有什么不一样吗？
-<li>代码仅有 15 行！去除掉注释，仅约10行！
+<li>代码仅有 15 行！去除掉注释，仅9行！
 <li>精，小，简，便。
 <li>配合 Wallpaper Engine 使用绝佳。
 <li>使用 302 状态码做跳转，使用 HTTPS
@@ -14,7 +14,7 @@ Fork 来自 [@Little_Qiu](https://www.littleqiu.net). 同样地，使用 GPL3.0 
 This API can catch daily picture from Bing.com,and can open this picture.
 Using PHP 5.2.0+,with JSON.
 ## Feature
-<li>Lite,small,easy,simple,U know,code only 15 lines!
+<li>Lite,small,easy,simple,U know,code only 9 lines!(10 lines,9 sloc)
 <li>Best with Wallpaper Engine.
 <li>Used HTTP 302 status code,using HTTPS.
 <li>Download once,run everywhere,enjoy always.
