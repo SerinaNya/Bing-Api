@@ -76,7 +76,7 @@ e.g. ``<img src="http://your-domain.com/bingpic.php?daysago=1">``
 
 ## 关于测试版
 
-测试版（``bingpic-test.php``）是开发中的版本，更新速度比稳定版（``bingpic.php``）要快些，但可能会包含一些致命的 Bug 导致无法正常运行。所以请在将正式版部署在生产环境前三思。
+测试版（``bingpic-test.php``）是开发中的版本，更新速度比稳定版（``bingpic.php``）要快些，但可能会包含一些致命的 Bug 导致无法正常运行。所以请在将测试版部署在生产环境前三思。
 
 测试版的部署方法和用法同稳定版。测试版不会在 [Releases](https://gtihub.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中打包发布，你需要从 Git 上 Clone 下来即可使用。
 
