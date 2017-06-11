@@ -11,5 +11,5 @@ function b() {
     	return "https://bing.com".$data['images'][0]['url']; // 返回 URL get picture URL
 };
 $url = b(); 
-header("Location:$url"); // 302 跳转 used 302
+header("Location: $url"); // 302 跳转 used 302 code
 ?>
