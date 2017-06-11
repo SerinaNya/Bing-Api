@@ -1,9 +1,8 @@
 <?php
 /*
 	小垃圾必应日图 API 精简版(LLBDPA) Lite Laji(means rubbish) Bing Daily Picture API(LLBDPA)
-	版本 1.1 (第三方) Version: 1.1 (Third Party)
-	源码 Little_Qiu,感谢 GPlane,精简 Flyfish. Source By Little_Qiu,Thanks @GPlane,Changed By Flyfish.
-	国际版会有延时。会在早晨刷新而不是0:00.
+	版本 1.3 (第三方) Version: 1.3 (Third Party) Global version 国际版,对中国不是很友好
+	源码 Little_Qiu,感谢 GPlane,精简 Flyfish. Source By Little_Qiu,Thanks @GPlane,Changed By Flyfish
 */
 function bg(){
     //非专业用户，请不要更改以下文本 if U aren't a PHP developer,please don't change the following text.
