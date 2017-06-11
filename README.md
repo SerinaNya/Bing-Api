@@ -26,6 +26,7 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
   - 耗费流量极少，不用担心一夜之间房子归~~移动~~ IDC。
   - 速度非常快，不用担心图片拖慢网页加载速度。 
 - 用途方面简直就是万金油，你甚至可以配合 Wallpaper Engine 自动获取每日的 Bing 今日美图并设置为你的电脑桌面壁纸。
+- 使用的是一个非常神奇的 JSON API，你甚至可以获取到明天的 Bing 今日美图！
 - 可能还有更多...
 
 ## 我要怎么部署和使用这个 API？
@@ -50,15 +51,19 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 你可以在任何可以使用 URL 添加图片的地方引用 ``http://your-domain.com/bingpic.php``，会直接显示当天的或您在 ``settings.php`` 中设置的天数之前的 Bing 今日美图。
 
-若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` ，即可获取 x 天前的 Bing 今日美图。
+若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` 或 ``?daysago=-1`` 获取 x 天前或 x 天后的 Bing 今日美图。
 
-e.g.  ``<img src="http://your-domain.com/bingpic.php" />``
+e.g.  ``<img src="http://your-domain.com/bingpic.php" />`` 获取当天的 Bing 今日美图
 
 ![Eexample](https://www.littleqiu.net/bingpic.php)
 
-e.g. ``<img src="http://your-domain.com/bingpic.php?daysago=1">``
+e.g. ``<img src="http://your-domain.com/bingpic.php?daysago=1" />`` 获取昨天的 Bing 今日美图
 
 ![昨天的 Bing 今日美图](https://www.littleqiu.net/bingpic.php?daysago=1)
+
+e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天的 Bing 今日美图
+
+![明天的 Bing 今日美图](https://www.littleqiu.net/bingpic.php?daysago=-1)
 
 你也可以这样用：
 
