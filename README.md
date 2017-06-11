@@ -51,7 +51,7 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 你可以在任何可以使用 URL 添加图片的地方引用 ``http://your-domain.com/bingpic.php``，会直接显示当天的或您在 ``settings.php`` 中设置的天数之前的 Bing 今日美图。
 
-若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` 或 ``?daysago=-1`` 获取 x 天前或 x 天后的 Bing 今日美图。
+若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` 或 ``?daysago=-x`` 获取 x 天前或 x 天后的 Bing 今日美图。
 
 e.g.  ``<img src="http://your-domain.com/bingpic.php" />`` 获取当天的 Bing 今日美图
 
