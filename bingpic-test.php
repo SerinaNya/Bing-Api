@@ -1,7 +1,7 @@
 <?php
  /* 
 	辣鸡 Bing 今日美图 API 测试版 By Little_Qiu
-	Version: 1.2-test
+	Version: 1.3-test
 	感谢 @GPlane 和 @Flyfish233
 	这是辣鸡 Bing 今日美图 API 的测试版。
     该版本可能未开发完全或含有不稳定因素，请谨慎用于生产环境！
