@@ -1,7 +1,7 @@
 <?php
  
  /* 
-	辣鸡 Bing 今日美图 API 测试版 By Little_Qiu
+	辣鸡 Bing 今日美图 API By Little_Qiu
 	Version: 1.2
 	感谢 @GPlane
  */
