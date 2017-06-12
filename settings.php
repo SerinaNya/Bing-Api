@@ -1,4 +1,6 @@
 <?php
+// 是否使用在 URL 后添加 region 参数的方式指定地区，若关闭则可在下一条设置项中设置地区
+$useUrlGetRegion = true
 // 设置地区，cn 为中国版，global 为国际版
 $region = cn;
 // 是否使用在 URL 后添加 daysago 参数的方法指定时间，若关闭则可在下一条设置项中设置时间
