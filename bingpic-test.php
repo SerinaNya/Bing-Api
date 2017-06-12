@@ -15,29 +15,39 @@ function bg() {
 	// 导入设置
 	include 'settings.php';
 	// 检查是否使用固定时间
-	if (useurl) {
+	if (useUrlSetDate) {
 		// 获取参数
-        $daysagoquery = "$_GET[daysago]";	
+        $daysAgoQuery = "$_GET['daysago']";
+		// 检查是否使用 URL 获取地区
+		if (useUrlSetRegion) {
+			$region = "$_GET['region']";
+		};
 		// 检查地区
 		if ($region = cn) {
 			// 获取中国版 JSON
-			$data = json_decode(file_get_contents("http://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysagoquery&n=1"), true);
+			$data = json_decode(file_get_contents("http://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgoQuery&n=1"), true);
+			// 返回 URL
+			return "https://cn.bing.com".$data['images'][0]['url'];
 		} elseif ($region = global) {
 			// 获取国际版 JSON
-			$data = json_decode(file_get_contents("http://bing.com/HPImageArchive.aspx?format=js&idx=$daysagoquery&n=1"), true);
-		}
+			$data = json_decode(file_get_contents("http://bing.com/HPImageArchive.aspx?format=js&idx=$daysAgoQuery&n=1"), true);
+			// 返回 URL
+			return "https://bing.com".$data['images'][0]['url'];
+		};
 	} else {
 		// 检查地区
 		if ($region = cn) {
 			// 获取中国版 JSON
-			$data = json_decode(file_get_contents("http://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysago&n=1"), true);
+			$data = json_decode(file_get_contents("http://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
+			// 返回 URL
+			return "https://cn.bing.com".$data['images'][0]['url'];
 		} elseif ($region = global) {
 			// 获取国际版 JSON
-			$data = json_decode(file_get_contents("http://bing.com/HPImageArchive.aspx?format=js&idx=$daysago&n=1"), true);
-		}
+			$data = json_decode(file_get_contents("http://bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
+			// 返回 URL
+			return "https://bing.com".$data['images'][0]['url'];
+		};
 	};
-	// 返回 URL
-    return "https://cn.bing.com".$data['images'][0]['url'];
 };
 // 302 跳转
 $url = bg();
