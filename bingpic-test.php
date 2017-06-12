@@ -1,7 +1,7 @@
 <?php
  /* 
 	辣鸡 Bing 今日美图 API 测试版 By Little_Qiu
-	Version: 1.3-test
+	Version: 1.3-test-3
 	感谢 @GPlane 和 @Flyfish233
 	这是辣鸡 Bing 今日美图 API 的测试版。
     该版本可能未开发完全或含有不稳定因素，请谨慎用于生产环境！
@@ -9,11 +9,19 @@
 // 检查 PHP 版本（然而并没有什么卵用）
 if (version_compare(PHP_VERSION, '5.2.0', '<')) {
     exit('错误：辣鸡 Bing 今日美图 API 要求 PHP 版本不低于 5.2.0，你正在使用的是 '.PHP_VERSION);
-}
+};
 // 获取 Bing 今日美图的图片地址
 function bg() {
-	// 导入设置
-	include 'settings.php';
+	// 设置 settings.php 的通用性
+	$mixSettingsPhp = false;
+	// 检查 settings.php 能否通用
+	if (mixSettingsPhp) {
+		// 导入设置
+		include 'settings.php';
+	} else {
+		// 导入设置
+		include 'settings-test.php';
+	}
 	// 检查是否使用固定时间
 	if (useUrlSetDate) {
 		// 获取参数
