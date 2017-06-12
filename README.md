@@ -20,7 +20,7 @@ Bing 今日美图是 Microsoft 公司推出的图片服务，每天更新一张�
 
 当然有。
 
-- 只有 2 个 PHP 文件，包括注释和空行总计只有 55 行代码，轻巧的不像实力派。
+- 只有 2 个 PHP 文件，截至目前稳定版包括注释和空行总计只有 55 行代码，轻巧的不像实力派。
 - 只是返回给用户一个 302 到 Bing 的今日美图图片的真实地址：
   - 不在服务器端存储每天的图片，不用担心存储空间爆炸。
   - 耗费流量极少，不用担心一夜之间房子归~~移动~~ IDC。
@@ -83,7 +83,7 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 测试版（``bingpic-test.php``）是开发中的版本，更新速度比稳定版（``bingpic.php``）要快些，但可能会包含一些致命的 Bug 导致无法正常运行。所以请在将测试版部署在生产环境前三思。
 
-测试版的部署方法和用法同稳定版。测试版不会在 [Releases](https://gtihub.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中打包发布，你需要从 Git 上 Clone 下来即可使用。
+测试版的部署方法和用法同稳定版。测试版不会在 [Releases](https://gtihub.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中打包发布，你需要从 Git 上 Clone 一份即可使用。
 
 若无特别说明，测试版的 ``settings.php`` 与稳定版的通用。
 
