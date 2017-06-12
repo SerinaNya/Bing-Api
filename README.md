@@ -83,7 +83,7 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 ## 更新 API
 
-自稳定版 v1.3开始，可以自动检测更新（但不能自动更新），你可以定期访问 ``http://your-domain.com/check-update`` 来检查更新。
+自稳定版 v1.3开始，你可以通过访问 ``http://your-domain.com/check-update`` 来检查是否有更新。**但不能自动检查更新或自动更新！**
 
 若有更新版本，你需要从 [Releases](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中下载最新版本的压缩包并解压，将所有文件上传至你的 API 目录覆盖所有文件，更新即完成。
 
