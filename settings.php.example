@@ -7,6 +7,6 @@
 $useUrl = true;
 // 设置时间（几天前），将 0 修改为你需要的时间，1 为昨天，2 为前天，-1 为明天，以此类推
 $daysAgo = '0';
-// 设置更新源
+// 设置更新源，更新源列表请看 https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E6%9B%B4%E6%96%B0%E6%BA%90-&-%E6%9B%B4%E6%96%B0%E6%BA%90%E5%88%97%E8%A1%A8
 $updateRepo = 'https://raw.githubusercontent.com/Minecraft-LittleQiu/laji-bing-pic-api/master/update.json';
 ?>
