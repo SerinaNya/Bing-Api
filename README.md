@@ -85,7 +85,7 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 自稳定版 v1.3开始，你可以通过访问 ``http://your-domain.com/check-update`` 来检查是否有更新。**但不能自动检查更新或自动更新！**
 
-自更新检查工具 v1.2 开始，你可以通过修改 ``settings.php`` 中的相关设置项来更改更新源。更新源列表请看 [https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/如何搭建更新源-&-更新源列表](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/如何搭建更新源-&-更新源列表)。
+自更新检查工具 v1.2 开始，你可以通过修改 ``settings.php`` 中的相关设置项来更改更新源。更新源列表请看[如何搭建更新源 & 更新源列表](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/如何搭建更新源-&-更新源列表)。
 
 若有更新版本，你需要从 [Releases](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中下载最新版本的压缩包并解压，将所有文件上传至你的 API 目录覆盖所有文件，更新即完成。
 
