@@ -1,5 +1,11 @@
 # 辣鸡 Bing 今日美图 API
 
+For English version, please [click here](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/blob/master/README_en.md).
+
+![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) ![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star) ![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)
+
+For English version, please click here.
+
 轻巧的 Bing 今日美图 API，回应您的吩咐。
 
 ## 什么是辣鸡 Bing 今日美图 API？
