@@ -2,7 +2,7 @@
 
 如果你想要阅读中文版本，[请点这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/blob/master/README.md)。
 
-![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) ![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star) ![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)
+![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) 
 
 **Developer is a Chinese and his English is not very well, so there may be some errors in this document. If U want help him translate this document, please open an issue to tell me.**
 
