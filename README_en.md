@@ -14,7 +14,7 @@ It's a PHP program to get Bing Daily Picture. You can use it on many place, such
 
 ## Features???
 
-- There are only 2 PHP files in core part. Including annotations, totaling only 46 lines of code.
+- There are only 2 PHP files in core part. Including annotations, totaling only 43 lines of code.
 
 - Just give user a HTTP 302 respones to Bing:
   - Very fast.
