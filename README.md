@@ -105,7 +105,7 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 ## **版权**
 
-辣鸡 Bing 今日美图 API 是基于 GUN General Public License v3.0 开放源代码的自由软件，你可以遵照 GPLv3 协议来二次开发并发布这一程序。
+辣鸡 Bing 今日美图 API 是基于 GNU General Public License v3.0 开放源代码的自由软件，你可以遵照 GPLv3 协议来二次开发并发布这一程序。
 
 而 Bing 今日美图为微软公司的产品，使用时请遵守相关规定及法律。**虽然获取到的图片上没有水印，但是我仍然建议你在醒目的地方加上一句“图片来自 Bing 今日美图”**。 
 
