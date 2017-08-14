@@ -4,7 +4,7 @@
 
 ![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) 
 
-**Developer is a Chinese and his English is not very well, so there may be some errors in this document. If U want help him translate this document, please open an issue to tell me.**
+**Developer is a Chinese and his English is not poor, so there may be some errors in this document. If U want help me translate this document, please open an issue to tell me.**
 
 Are U puzzled by how to use Bing Daily Picture in your website or any other purpose?  Now U can use Laji Bing Daily Picture API to do that!
 
@@ -80,4 +80,4 @@ Test version is the developing version. It update faster than release version. B
 
 ## Copyright and License
 
-Copyright (c) 2017 [@Little_Qiu](https://www.littleqiu.net) - Released under the GUN General Public License v3.0.
+Copyright (c) 2017 [@Little_Qiu](https://www.littleqiu.net) - Released under the GNU General Public License v3.0.
