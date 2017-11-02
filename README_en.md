@@ -4,7 +4,7 @@
 
 ![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) 
 
-**Developer is a Chinese and his English is not poor, so there may be some errors in this document. If U want help me translate this document, please open an issue to tell me.**
+**Developer is a Chinese and his English is poor, so there may be some errors in this document. If U want help me translate this document, please open an issue to tell me.**
 
 Are U puzzled by how to use Bing Daily Picture in your website or any other purpose?  Now U can use Laji Bing Daily Picture API to do that!
 
@@ -15,7 +15,6 @@ It's a PHP program to get Bing Daily Picture. You can use it on many place, such
 ## Features???
 
 - There are only 2 PHP files in core part. Including annotations, totaling only 43 lines of code.
-
 - Just give user a HTTP 302 respones to Bing:
   - Very fast.
   - Very little data traffic.
@@ -40,7 +39,7 @@ It's a PHP program to get Bing Daily Picture. You can use it on many place, such
 
 ### How to use
 
-You can add your API URL(``http://your-domain.com/bingpic.php``) to your program which support add pictures with URL, it will return today's or the number of days ago you set in ``settings.php``. Such as HTML ``<img>`` code:
+You can add your API URL(``http://your-domain.com/bingpic.php``) to your program which support add pictures with URL, it will return Bing Daily Picture. Such as HTML ``<img>`` code:
 
 ``<img src="http://your-domain.com/bingpic.php" />``
 
@@ -76,7 +75,7 @@ If there is a new version, you need download the new version [here](https://gith
 
 ## About test version
 
-Test version is the developing version. It update faster than release version. But it is still developing, you should think carefully before you install test version on your server.
+Test version is the developing version. It update faster than release version but it is still developing. You should think carefully before you install test version on your server.
 
 ## Copyright and License
 
