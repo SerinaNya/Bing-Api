@@ -109,4 +109,4 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 而 Bing 今日美图为微软公司的产品，使用时请遵守相关规定及法律。**虽然获取到的图片上没有水印，但是我仍然建议你在醒目的地方加上一句“图片来自 Bing 今日美图”**。 
 
-程序原作者为 [@Little_Qiu](https://www.littleqiu.net/)，转载请注明。
+程序原作者为 [@Little_Qiu](https://www.littleqiu.net/)，现仓库已被Tranfer，并由[@Xiao_Jin](https://xiao-jin.xyz/)接替开发。后者已获得授权，转载请注明。
