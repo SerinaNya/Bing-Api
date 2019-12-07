@@ -2,7 +2,7 @@
  
 /* 
 	辣鸡 Bing 今日美图 API By Little_Qiu
-	Version: 1.5
+	Version: 1.6
 	感谢 @GPlane 和 @Flyfish233
 */
  
@@ -20,9 +20,9 @@ function bg() {
         $daysAgo = "$_GET[daysago]";
 	};
 	// 获取 JSON
-    $data = json_decode(file_get_contents("http://bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
+    $data = json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
 	// 返回 URL
-    return "https://bing.com".$data['images'][0]['url'];
+    return "https://cn.bing.com".$data['images'][0]['url'];
 };
 // 302 跳转
 $url = bg();
