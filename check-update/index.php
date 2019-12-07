@@ -1,7 +1,7 @@
 <?php
 /* 
-	辣鸡 Bing 今日美图 API 更新检查工具 By Little_Qiu
-	Version: 1.2
+	辣鸡 Bing 今日美图 API 更新检查工具 By Little_Qiu & Xiao_Jin
+	Version: 1.3
 */
 // 检查 PHP 版本
 if (version_compare(PHP_VERSION, '5.2.0', '<')) {
@@ -12,7 +12,7 @@ include 'version.php';
 // 导入设置
 include "../settings.php";
 // 设置下载地址
-$releases = "https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases";
+$releases = "https://github.com/jinzhijie/LjBingPictureApi/releases";
 // 获取 JSON
 $updateJson = json_decode(file_get_contents("$updateRepo"), true);
 // 转换主程序发布日期
