@@ -15,17 +15,20 @@ function bg() {
 	// 导入设置
 	include 'settings.php';
 	// 检查是否使用 URL 指定时间
-	if (useUrl) {
+	if ($useUrl) {
 		// 获取 daysago 参数的值
-        $daysAgo = "$_GET[daysago]";
+        $daysAgoQuery = "$_GET[daysago]";
+		// 获取 JSON
+        $data = json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgoQuery&n=1"), true);
+	} else {
+		// 获取 JSON
+        $data = json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
 	};
-	// 获取 JSON
-    $data = json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
 	// 返回 URL
     return "https://cn.bing.com".$data['images'][0]['url'];
 };
 // 302 跳转
 $url = bg();
 header("Location: $url");
-exit;
+die();
 ?>
