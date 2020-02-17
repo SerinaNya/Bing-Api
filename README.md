@@ -4,7 +4,10 @@ For English version, please [click here](https://github.com/Minecraft-LittleQiu/
 
 ![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg)
 
-轻巧的 Bing 今日美图 API，回应您的吩咐。
+轻巧的 Bing 今日美图 API，回应您的吩咐。  
+
+## 注意哦
+> 不要再从Releases下载啦！建议直接`git clone`呢
 
 ## 什么是辣鸡 Bing 今日美图 API？
 
@@ -47,27 +50,26 @@ Bing 今日美图是 Microsoft 推出的图片服务，每天更新一张非常�
 ### 部署教程
 
 1. 检查你的主机是否符合运行辣鸡 Bing 今日美图 API 的环境要求
-2. [在这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases)下载辣鸡 Bing 今日美图 API 并解压
-3. 将 ``settings.php.example`` 重命名为 ``settings.php`` 并修改其中的设置
-4. 将所有文件放置在你在 Web 引擎中设置的站点目录（虚拟主机用户是上传至站点根目录）
-5. 访问 ``http://your-domain.com/bingpic.php`` 检查是否有报错
-6. 还有别的步骤么——没有了！
+2. 把这个仓库克隆或下载
+3. 将所有文件放置在你在 Web 引擎中设置的站点目录下的bing文件夹
+4. 访问 ``https://your-domain.com/bing/`` 检查是否有报错
+5. 还有别的步骤么——没有了！
 
 ### 如何使用？
 
-你可以在任何可以使用 URL 添加图片的地方引用 ``http://your-domain.com/bingpic.php``，会直接显示当天的或您在 ``settings.php`` 中设置的天数之前的 Bing 今日美图。
+你可以在任何可以使用 URL 添加图片的地方引用 ``https://your-domain.com/bing/``，会直接显示当天的或您在 ``settings.php`` 中设置的天数之前的 Bing 今日美图。
 
 若您没有在 ``settings.php`` 中开启固定时间，您也可以在 URL 后加上 ``?daysago=x`` 或 ``?daysago=-1`` 获取 x 天前或明天的 Bing 今日美图。
 
-e.g.  ``<img src="http://your-domain.com/bingpic.php" />`` 获取当天的 Bing 今日美图
+e.g.  ``<img src="https://your-domain.com/bing/" />`` 获取当天的 Bing 今日美图
 
 ![Eexample](https://www.littleqiu.net/bingpic/bingpic.php)
 
-e.g. ``<img src="http://your-domain.com/bingpic.php?daysago=1" />`` 获取昨天的 Bing 今日美图
+e.g. ``<img src="https://your-domain.com/bing/" />`` 获取昨天的 Bing 今日美图
 
 ![昨天的 Bing 今日美图](https://www.littleqiu.net/bingpic/bingpic.php?daysago=1)
 
-e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天的 Bing 今日美图，仅当天下午 16 时后有效
+e.g. ``<img src="https://your-domain.com/bing/?daysago=-1" />`` 获取明天的 Bing 今日美图，仅当天下午 16 时后有效
 
 ![明天的 Bing 今日美图](https://www.littleqiu.net/bingpic/bingpic.php?daysago=-1)
 
@@ -87,21 +89,15 @@ e.g. ``<img src=http://your-domain.com/bingpic.php?daysago=-1 />`` 获取明天�
 
 ## 更新 API
 
-自稳定版 v1.3开始，你可以通过访问 ``http://your-domain.com/check-update`` 来检查是否有更新。**但不能自动检查更新或自动更新！**
+自稳定版 v1.3开始，你可以通过访问 ``https://your-domain.com/bing/check-update/`` 来检查是否有更新。**但不能自动检查更新或自动更新！**
 
 自更新检查工具 v1.2 开始，你可以通过修改 ``settings.php`` 中的相关设置项来更改更新源。更新源列表请看[如何搭建更新源 & 更新源列表](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/wiki/如何搭建更新源-&-更新源列表)。
 
-若有更新版本，你需要从 [Releases](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中下载最新版本的压缩包并解压，将所有文件上传至你的 API 目录覆盖所有文件，更新即完成。
+若有更新版本，你需要重新按照部署教程操作！
 
 ## 关于测试版
 
-测试版（``bingpic-test.php``）是开发中的版本，更新速度比稳定版（``bingpic.php``）要快些，但可能会包含一些致命的 Bug 导致无法正常运行。所以请在将测试版部署在生产环境前三思。
-
-测试版的部署方法和用法同稳定版。测试版不会在 [Releases](https://gtihub.com/Minecraft-LittleQiu/laji-bing-pic-api/releases) 中打包发布，你需要使用 Git 从 GitHub 上 Clone 一份即可使用。
-
-~~若无特别说明，测试版的配置文件（``settings.php``）与稳定版的通用。~~
-
-测试版 v1.3-test 开始新增了对配置文件能否兼容的检测（笨办法，我会在开发时在程序中设置兼容性），若能够兼容稳定版的配置文件则会加载稳定版的，若不能兼容则会自动加载开发版的配置文件（``settings-test.php``）。
+生产环境来测试是我们的一大特色，但请放心，我们早就测试过了（本来也就没多少代码。
 
 ## **版权**
 
