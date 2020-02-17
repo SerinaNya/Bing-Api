@@ -29,6 +29,7 @@ function bg() {
 };
 // 302 跳转
 $url = bg();
+header("status: 302");
 header("Location: $url");
 die();
 ?>
