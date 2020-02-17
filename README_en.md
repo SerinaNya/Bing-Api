@@ -1,6 +1,6 @@
 # Laji Bing Daily Picture API
 
-如果你想要阅读中文版本，[请点这里](https://github.com/Minecraft-LittleQiu/laji-bing-pic-api/blob/master/README.md)。
+### This English version is no longer maintained. You can open a new pull request to update this page.
 
 ![PHP](https://img.shields.io/badge/PHP-5.2.0+-blue.svg) ![License](https://img.shields.io/badge/License-GPL--3.0-brightgreen.svg) 
 
