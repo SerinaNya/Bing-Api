@@ -7,7 +7,8 @@
 // 检查 PHP 版本
 if (version_compare(PHP_VERSION, '5.2.0', '<')) {
     exit('PHP 版本不得低于 5.2.0，可你正在使用的是 '.PHP_VERSION);
-}
+};
+
 // 获取 Bing 今日美图的图片地址
 function bg() {
 	// 导入设置
