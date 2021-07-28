@@ -26,7 +26,7 @@ function bg() {
 };
 
 function req($daysAgo) {
-	retrun json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
+	return json_decode(file_get_contents("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=$daysAgo&n=1"), true);
 };
 
 $url = bg();
