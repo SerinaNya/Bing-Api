@@ -16,7 +16,7 @@ function bg() {
 	
 	// 检查是否使用 URL 指定时间
 	if ($useUrl) {
-        $daysAgoQuery = "$_GET["daysago"]";
+        $daysAgoQuery = $_GET["daysago"];
 	$data = req($daysAgoQuery);
 	} else {
         $data = req($daysAgo);
